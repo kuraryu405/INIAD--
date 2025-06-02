@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "INIAD Neumorphism UI",
+    "version": "1.0",
+    "description": "INIAD講義サイトをニューモフィズム風の柔らかいUIに変えます。",
+    "content_scripts": [
+      {
+        "matches": ["https://moocs.iniad.org/*"],
+        "css": ["styles.css"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "128": "icons/icon128.png"
+    }
+  }
+  

@@ -1,0 +1,94 @@
+/* 全体の背景と文字色 */
+html, body, .content-wrapper {
+    background-color: #e0e0e0 !important;
+    color: #333 !important;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  /* 講義カード */
+  .well {
+    background: #e0e0e0 !important;
+    border: none !important;
+    box-shadow:
+      8px 8px 16px #bebebe,
+      -8px -8px 16px #ffffff !important;
+    border-radius: 16px !important;
+    transition: all 0.3s ease;
+  }
+  .well:hover {
+    box-shadow:
+      4px 4px 8px #bebebe,
+      -4px -4px 8px #ffffff !important;
+  }
+  
+  /* ボタン */
+  .btn-primary,
+  .btn-success {
+    background: #e0e0e0 !important;
+    color: #333 !important;
+    border: none !important;
+    box-shadow:
+      6px 6px 12px #bebebe,
+      -6px -6px 12px #ffffff !important;
+    border-radius: 12px !important;
+    transition: 0.2s;
+  }
+  .btn-primary:hover,
+  .btn-success:hover {
+    box-shadow:
+      inset 4px 4px 8px #bebebe,
+      inset -4px -4px 8px #ffffff !important;
+  }
+  
+  /* 警告バー */
+  .alert-warning {
+    background: #e0e0e0 !important;
+    color: #a67c00 !important;
+    box-shadow:
+      inset 4px 4px 8px #bebebe,
+      inset -4px -4px 8px #ffffff !important;
+    border-radius: 12px !important;
+  }
+  
+  /* サイドバー全体 */
+  .main-sidebar, .sidebar {
+    background: #e0e0e0 !important;
+    color: #333 !important;
+    box-shadow:
+      inset 4px 4px 8px #bebebe,
+      inset -4px -4px 8px #ffffff !important;
+  }
+  
+  /* サイドバーのリンクやテキスト */
+  .sidebar-menu > li > a,
+  .sidebar-menu > li.header {
+    color: #333 !important;
+    border-radius: 12px;
+  }
+  .sidebar-menu > li > a:hover {
+    background: #d5d5d5 !important;
+    box-shadow:
+      inset 2px 2px 4px #bebebe,
+      inset -2px -2px 4px #ffffff !important;
+  }
+  
+  /* ファイル選択・登録ボタン */
+  input[type="file"],
+  button {
+    background-color: #e0e0e0 !important;
+    color: #333 !important;
+    border: none !important;
+    box-shadow:
+      6px 6px 12px #bebebe,
+      -6px -6px 12px #ffffff !important;
+    border-radius: 12px;
+  }
+  
+  /* 各コース画像 */
+  .course-list-icon {
+    border-radius: 8px;
+    box-shadow:
+      4px 4px 8px #bebebe,
+      -4px -4px 8px #ffffff !important;
+  }
+  
